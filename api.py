@@ -9,7 +9,7 @@ import time
 
 classifier = pipeline('sentiment-analysis')
 
-app = FastAPI(docs_url=None, redoc_url=None)
+app = FastAPI(docs_url=None, redoc_url=None,title='transformers 情感分析 API')
 
 Swagger.doc(app)
 
